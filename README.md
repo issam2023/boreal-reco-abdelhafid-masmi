@@ -109,3 +109,42 @@ To reproduce the analysis:
 
 The deployed Streamlit application uses the saved model artifacts
 and does not require the original transaction archive.
+
+## Recommendation Engine — Edge Cases
+
+The application implements the five required edge cases:
+
+1. **Empty basket:** Displays popular products as a cold-start fallback.
+2. **No matching rule:** Displays an explanation and falls back to popular products.
+3. **Product already in basket:** Excludes that product from recommendations.
+4. **Duplicate recommendation:** Retains the qualifying rule with the highest lift.
+5. **Very rare product:** Explains that insufficient support can prevent a product from appearing in frequent itemsets.
+
+These behaviours were checked using the Streamlit interface and recommendation logic.
+
+## Ethical and Legal Considerations
+
+### Québec Law 25 and explainability
+
+The application provides explanations for association-rule recommendations.
+The expandable **Rules that fired** section exposes the antecedents,
+recommended products, support, confidence, and lift, supporting transparency
+and helping users understand why a recommendation was generated.
+
+### Correlation does not imply causation
+
+An observed rule in the application is **Charbon de bois → Bière**.
+This is an example of the familiar retail association between charcoal
+and beer. The association does not establish that buying charcoal causes
+someone to buy beer. Shared shopping occasions, such as barbecues,
+may help explain why these products appear together.
+
+### Reinforcement bias
+
+Recommending only popular products can repeatedly favour already popular
+items and reduce exposure to less frequently purchased products.
+
+The measured recommendation coverage is **59.2% (58 of 98 products)**,
+highlighting this limitation. A future hybrid recommendation system
+could combine association rules with product-category similarity
+to improve coverage.
