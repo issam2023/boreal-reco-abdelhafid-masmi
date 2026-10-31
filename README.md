@@ -38,7 +38,9 @@ to recommend items based on basket contents.
 
 ## Status
 
-Streamlit application implemented and tested locally.
+Streamlit application implemented, tested locally, and deployed online.
+
+**Live application:** https://boreal-reco-masmi.streamlit.app/
 
 ## Data
 
