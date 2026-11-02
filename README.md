@@ -93,6 +93,11 @@ Recommendations with support, confidence, lift, and the fired-rules audit trail.
 
 ![Apriori recommendations and audit trail](screenshots/fired-rules.png)
 
+### Analytics & Insights
+Interactive dashboard showing product popularity, recommendation coverage, confidence versus lift, and Apriori benchmarks.
+
+![Boréal Marché Analytics Dashboard](screenshots/analytics-dashboard.png)
+
 ## Dataset and Reproducibility
 
 The datasets were provided for the Vanier College Boréal Marché assignment.
