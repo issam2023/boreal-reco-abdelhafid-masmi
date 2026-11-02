@@ -1,6 +1,6 @@
 # Boréal Marché — Apriori benchmark
 
-Measured on Linux-7.2.11-200.fc44.x86_64-x86_64-with-glibc2.43
+Measured on Linux-7.2.14-200.fc44.x86_64-x86_64-with-glibc2.43
 
 - RAM available: 39.11 GiB
 - Python: 3.12.15
@@ -10,14 +10,14 @@ Measured on Linux-7.2.11-200.fc44.x86_64-x86_64-with-glibc2.43
 
 | min_support | itemsets | rules | time_seconds | peak_rss_mib | outcome |
 |---|---|---|---|---|---|
-| 0.05 | 191 | 282 | 2.93 | 1155.26 | ok |
-| 0.02 | 658 | 3159 | 6.37 | 1158.32 | ok |
-| 0.01 | 2267 | 9736 | 14.98 | 1159.63 | ok |
-| 0.005 | 7106 | 28433 | 33.48 | 1167.78 | ok |
+| 0.05 | 191 | 282 | 2.9 | 1155.38 | ok |
+| 0.02 | 658 | 3159 | 6.51 | 1158.55 | ok |
+| 0.01 | 2267 | 9736 | 14.93 | 1161.26 | ok |
+| 0.005 | 7106 | 28433 | 32.89 | 1167.72 | ok |
 
 ## Interpretation
 
-Lowest-support run: 7106 itemsets, 28433 rules in 33.48 seconds; outcome: ok.
+Lowest-support run: 7106 itemsets, 28433 rules in 32.89 seconds; outcome: ok.
 
 ## Apriori memory limitation
 
