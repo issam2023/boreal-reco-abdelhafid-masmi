@@ -799,6 +799,103 @@ div[aria-selected="true"] {
 .stTabs [data-baseweb="tab-panel"] [data-testid="stMetric"] {background: #FFFDF7; border: 1px solid #B9D8C5; border-top: 4px solid #008D69; border-radius: 14px; padding: 13px;}
 .stTabs [data-baseweb="tab-panel"] [data-testid="stMetricValue"] {color: #075B3E !important; font-weight: 850;}
 
+
+/* BOREAL AUDIT TRAIL — FULL-WIDTH RED HIGHLIGHT */
+.audit-panel{margin:24px 0 16px;border:2px solid #c90913;border-radius:20px;
+  overflow:hidden;background:#fff9f9;box-shadow:0 9px 26px rgba(170,0,12,.17)}
+.audit-heading{background:linear-gradient(100deg,#d50012,#a90010);color:#fff !important;
+  padding:18px 22px;display:flex;justify-content:space-between;align-items:center;
+  flex-wrap:wrap;gap:10px;font-size:1.45rem;font-weight:900}
+.audit-heading span{color:#fff !important;text-shadow:0 1px 1px rgba(0,0,0,.16)}
+.audit-count{background:#fff0f0;color:#870008 !important;border-radius:25px;
+  padding:5px 15px;font-size:.94rem;white-space:nowrap;text-shadow:none !important}
+.audit-heading .audit-count{color:#870008 !important}
+.audit-scroll{overflow-x:auto;padding:14px 16px 4px}
+.audit-table{width:100%;border-collapse:separate;border-spacing:0;
+  border:1px solid #f1b8bd;border-radius:10px;overflow:hidden;
+  font-size:1.04rem;line-height:1.55}
+.audit-table th{background:#ffd8dc;color:#88000b !important;text-align:left;font-weight:900;font-size:1.05rem}
+.audit-table th,.audit-table td{padding:12px 14px;border-bottom:1px solid #f1c5c8;
+  border-right:1px solid #f1c5c8;vertical-align:middle}
+.audit-table th:last-child,.audit-table td:last-child{border-right:0}
+.audit-table tbody tr:last-child td{border-bottom:0}
+.audit-table tbody tr:nth-child(even){background:#fff0f1}
+.audit-table tbody tr:hover{background:#ffe2e4}
+.audit-table strong{color:#191718 !important}
+.audit-table td{color:#1b1718 !important;font-weight:650;background:transparent}
+.audit-lift{display:inline-block;background:#b90010;color:#fff !important;border-radius:8px;
+  font-weight:900;padding:5px 12px;white-space:nowrap;text-shadow:0 1px 1px rgba(0,0,0,.2)}
+.audit-note{padding:14px 20px;background:#ffe8ea;color:#8d0010 !important;
+  font-weight:800;border-top:1px solid #f1c5c8}
+@media(max-width:850px){.audit-heading{font-size:1.12rem;padding:14px}
+  .audit-table{font-size:.82rem}.audit-table th,.audit-table td{padding:9px}}
+
+
+/* Soft rose audit trail: high contrast, no saturated red backgrounds */
+.audit-panel{margin:22px 0 16px;border:1.5px solid #df9ea9;border-radius:17px;
+  background:#fffafa;box-shadow:0 5px 17px rgba(115,45,62,.10)}
+.audit-heading{background:linear-gradient(105deg,#f8d8df,#f3c4ce);color:#76243c !important;
+  padding:15px 18px;font-size:1.2rem;text-shadow:none}
+.audit-heading span{color:#76243c !important;text-shadow:none}
+.audit-count,.audit-heading .audit-count{background:#fff8fa;color:#76243c !important;
+  border:1px solid #e7b3be;font-size:.84rem}
+.audit-scroll{padding:10px 10px 4px}
+.audit-table{font-size:.88rem;line-height:1.4;border-color:#e9c2ca}
+.audit-table th{background:#f8e0e5;color:#76243c !important;font-size:.87rem}
+.audit-table th,.audit-table td{padding:10px 9px;border-color:#efd5da;overflow-wrap:anywhere}
+.audit-table td{color:#242024 !important;font-weight:650}
+.audit-table tbody tr:nth-child(even){background:#fff0f3}
+.audit-table tbody tr:hover{background:#fbe4e9}
+.audit-lift{background:#b34c66;color:#fff !important;border-radius:7px;padding:4px 7px}
+.audit-note{background:#fff0f3;color:#78344a !important;border-color:#efd5da;
+  padding:12px 14px;font-size:.82rem}
+@media(max-width:850px){.audit-scroll{overflow-x:auto}.audit-table{min-width:620px}}
+
+
+/* FINAL BALANCED PROFESSIONAL POLISH — PRESENTATION ONLY */
+.block-container{max-width:1720px;padding:0.65rem 1.35rem 2.8rem}
+.hero{min-height:0!important;margin-bottom:10px!important;border-radius:19px!important;
+  gap:14px!important;align-items:center!important}
+.hero .credit-panel{padding:9px 14px!important;margin:0!important;
+  font-size:.85rem!important;line-height:1.55!important;max-width:660px}
+.hero-art{line-height:1.05!important;letter-spacing:0!important}
+.kpi{padding:10px 14px!important;border-radius:13px!important}
+.kpi-num{font-size:1.55rem!important;line-height:1.2!important}
+.kpi-label{font-size:.79rem!important;line-height:1.4!important;font-weight:650!important}
+.section-head{font-size:1.13rem!important;margin:13px 0 7px!important;line-height:1.35}
+.product{border-radius:14px!important;padding:10px!important;min-height:0!important}
+.product-art{height:112px!important;margin-bottom:7px!important;font-size:3.15rem!important}
+.product-photo{height:112px!important;margin-bottom:7px!important}
+.product-name{font-size:.91rem!important;line-height:1.4!important}
+.product-en{font-size:.77rem!important}
+.product-price{font-size:1.12rem!important;margin-top:5px!important}
+.recobox{padding:11px 12px!important;margin:8px 0 4px!important}
+.recobox .small-muted{font-size:.79rem!important;line-height:1.5!important}
+.basketbox{padding:9px 11px!important}
+.small-muted{font-size:.79rem!important;line-height:1.45!important}
+.howbox{line-height:1.75!important;padding:12px!important}
+.audit-panel{margin:16px 0 12px!important;box-shadow:0 5px 14px rgba(105,54,66,.08)!important}
+.audit-heading{font-size:1.02rem!important;padding:12px 15px!important}
+.audit-table{font-size:.86rem!important;line-height:1.5!important}
+.audit-table th,.audit-table td{padding:9px 10px!important}
+.audit-note{font-size:.81rem!important;line-height:1.5!important}
+.stButton>button{min-height:35px!important;font-size:.85rem!important}
+[data-testid="stVerticalBlock"]{gap:.42rem!important}
+@media(max-width:1050px){
+  .hero-art{display:none!important}
+  .hero{padding:15px 19px!important}
+  .audit-scroll{overflow-x:auto!important}
+  .audit-table{min-width:570px}
+}
+@media(max-width:700px){
+  .block-container{padding:.6rem .7rem 2rem!important}
+  .hero{padding:13px 15px!important}
+  .hero .credit-panel{font-size:.78rem!important}
+  .kpi{padding:9px!important}
+  .kpi-num{font-size:1.35rem!important}
+  .audit-heading{font-size:.94rem!important}
+}
+
 </style>''',unsafe_allow_html=True)
 
 @st.cache_data(show_spinner=False)
@@ -875,27 +972,27 @@ def strength(lift):return 'Very strong' if lift>=5 else 'Strong' if lift>=3 else
 st.markdown('''<div class="hero" style="
   background:linear-gradient(115deg,#dcfce7 0%,#fef9c3 55%,#d1fae5 100%);
   border:2px solid #a7dfbd;
-  padding:34px 42px;
+  padding:18px 26px;
   box-shadow:0 10px 30px rgba(5,100,55,.12);
 ">
 <div style="flex:1">
 
-  <div style="font-size:.95rem;font-weight:900;letter-spacing:.16em;color:#087443">
+  <div style="font-size:.78rem;font-weight:900;letter-spacing:.12em;color:#087443">
     🎓 VANIER COLLEGE &nbsp; | &nbsp; FALL 2026
   </div>
 
   <div style="
-    font-size:4rem;
+    font-size:2.75rem;
     font-weight:900;
     color:#064e3b;
     line-height:1.15;
-    margin:12px 0 8px;
+    margin:5px 0 4px;
     text-shadow:1px 2px 0 rgba(255,255,255,.7);
   ">
     🛒 Boréal Marché
   </div>
 
-  <div style="font-size:1.4rem;font-weight:800;color:#166534;margin-bottom:18px">
+  <div style="font-size:1.06rem;font-weight:800;color:#166534;margin-bottom:9px">
     Smart Grocery Recommendation System
   </div>
 
@@ -907,7 +1004,7 @@ st.markdown('''<div class="hero" style="
 
 </div>
 
-<div class="hero-art" style="font-size:4.5rem">
+<div class="hero-art" style="font-size:3rem">
   🥬🍅🥕🧀🥖
 </div>
 
@@ -920,6 +1017,7 @@ for col,(num,label) in zip(st.columns(4),[(len(products),'Catalogue products'),(
 store_tab, analytics_tab = st.tabs(['🛍️ Grocery Store', '📊 Analytics & Insights'])
 
 with store_tab:
+    chosen=recommend(st.session_state.basket.keys())
     side,center,right=st.columns([.9,2.7,1.35],gap='medium')
     with side:
         st.markdown('<div class="section-head">🗂️ Categories</div>',unsafe_allow_html=True)
@@ -955,6 +1053,36 @@ with store_tab:
                     st.markdown(f'<div class="product">{art}<div class="product-name" title="{safe(item)}">{safe(item)}</div><div class="product-en" title="{safe(p["Item_EN"])}">{safe(p["Item_EN"])}</div><span class="product-category">{safe(p["Category"])}</span><div class="product-price">${float(p["Price"]):.2f}</div></div>',unsafe_allow_html=True)
                     st.button(f'＋ Add another ({st.session_state.basket[item]})' if added else '＋ Add to basket',key=f'catalog_{item}',on_click=add,args=(item,),type='primary',use_container_width=True)
 
+        # Full-width audit panel: presentation only; recommendation logic is unchanged.
+        if chosen:
+            audit_rows = []
+            for rule in chosen:
+                audit_rows.append(
+                    '<tr>'
+                    f'<td>{safe(", ".join(rule["antecedents"]))}</td>'
+                    f'<td><strong>{safe(rule["item"])}</strong></td>'
+                    f'<td>{rule["support"]:.4f}</td>'
+                    f'<td>{rule["confidence"]:.1%}</td>'
+                    f'<td><span class="audit-lift">{rule["lift"]:.2f}×</span></td>'
+                    '</tr>'
+                )
+            st.markdown(
+                '<section class="audit-panel">'
+                '<div class="audit-heading">'
+                '<span>🎯 Rules that fired — Audit trail</span>'
+                f'<span class="audit-count">{len(chosen)} rules</span>'
+                '</div>'
+                '<div class="audit-scroll"><table class="audit-table">'
+                '<thead><tr><th>If basket contains</th><th>Then suggest</th>'
+                '<th>Support</th><th>Confidence</th><th>Lift</th></tr></thead>'
+                '<tbody>' + ''.join(audit_rows) + '</tbody></table></div>'
+                '<div class="audit-note">ⓘ &nbsp; Highest-lift qualifying '
+                'singleton-consequent rule per suggested product.</div>'
+                '</section>',
+                unsafe_allow_html=True,
+            )
+
+
     with right:
         st.markdown(f'<div class="section-head">🧺 Your basket ({unit_count} items)</div>',unsafe_allow_html=True)
         if not st.session_state.basket:
@@ -971,7 +1099,6 @@ with store_tab:
             st.success(f'🧾 **Basket total: ${total:.2f} CAD** · {unit_count} units')
             st.button('🗑️ Clear basket',on_click=clear,use_container_width=True)
         st.markdown('<div class="section-head">✨ Recommended for you</div>',unsafe_allow_html=True)
-        chosen=recommend(st.session_state.basket.keys())
         if not st.session_state.basket:st.info('Popular products shown until you add something to your basket.')
         elif not chosen:
             st.warning('No matching rule for this basket. Showing popular products instead.')
@@ -990,13 +1117,6 @@ with store_tab:
                 st.markdown(f'<div class="recobox"><div class="rec-name">{emoji(c["Category"],item)} {safe(item)} · ${float(c["Price"]):.2f}</div><div class="small-muted">{safe(c["Item_EN"])} · {safe(c["Category"])}</div><span class="chip chip-gold">🔥 Popular choice</span><span class="chip">In {float(p["support"]):.1%} of baskets</span></div>',unsafe_allow_html=True)
                 st.button(f'＋ Add {item}',key=f'popular_{item}',on_click=add,args=(item,),use_container_width=True)
             st.caption('Popularity fallback — not association-rule recommendations.')
-        with st.expander('🔍 Rules that fired · Audit trail'):
-            if chosen:
-                df=pd.DataFrame([{'If basket contains':', '.join(r['antecedents']),'Then suggest':r['item'],'Support':r['support'],'Confidence':r['confidence'],'Lift':r['lift']} for r in chosen])
-                st.dataframe(df,hide_index=True,use_container_width=True)
-                st.caption('Highest-lift qualifying singleton-consequent rule per suggested product.')
-            else:st.write('No qualifying recommendation rules currently fire.')
-
     st.divider()
     st.caption('📷 Product photos: place correctly named .jpg/.png/.webp files in app/assets/products/ (e.g., steak-de-boeuf.jpg). Products without photos display illustrated category icons. This prevents misleading product images.')
     with st.expander('📘 Methodology, limitations and reproducibility'):
