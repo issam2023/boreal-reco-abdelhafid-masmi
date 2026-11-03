@@ -2,7 +2,9 @@
 
 **Vanier College — 420-975-VA: Unsupervised Learning**
 
-**Author:** Abdelhafid Masmi
+**Author:** Abdelhafid Masmi  
+**Professor:** Steve Ataky, PhD  
+**Semester:** Fall 2026
 
 ## Project Overview
 
