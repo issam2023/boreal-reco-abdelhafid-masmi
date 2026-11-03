@@ -75,7 +75,7 @@ Run Streamlit:
 
 ## Notebook
 
-notebooks/masmi-notebook.ipynb
+notebooks/01_mining.ipynb
 
 ## Benchmark
 
@@ -111,7 +111,7 @@ To reproduce the analysis:
 1. Obtain `transactions.zip` from the course materials.
 2. Place it in `data/` without extracting it.
 3. Install dependencies: `pip install -r requirements.txt`.
-4. Open `notebooks/masmi-notebook.ipynb` in JupyterLab.
+4. Open `notebooks/01_mining.ipynb` in JupyterLab.
 5. Run all cells in order.
 
 The deployed Streamlit application uses the saved model artifacts
