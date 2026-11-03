@@ -42,6 +42,8 @@ Streamlit application implemented, tested locally, and deployed online.
 
 **Live application:** https://boreal-reco-abdelhafid-masmi.streamlit.app/
 
+**Docker deployment (Render):** https://boreal-reco-abdelhafid-masmi.onrender.com
+
 ## Data
 
 The original transaction dataset is excluded from GitHub
