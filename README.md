@@ -40,7 +40,7 @@ to recommend items based on basket contents.
 
 Streamlit application implemented, tested locally, and deployed online.
 
-**Live application:** https://boreal-reco-masmi.streamlit.app/
+**Live application:** https://boreal-reco-abdelhafid-masmi.streamlit.app/
 
 ## Data
 
